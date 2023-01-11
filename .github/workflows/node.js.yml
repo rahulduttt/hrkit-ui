@@ -21,10 +21,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+      with:
+        version: 7.242
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run lint
+        cache: 'pnpm'
+    - run: pnpm install
+    - run: pnpm lint
