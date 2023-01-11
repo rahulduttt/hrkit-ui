@@ -14,20 +14,15 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v3
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
         version: 7.242
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 18
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 18.13.0
         cache: 'pnpm'
     - run: pnpm install
     - run: pnpm lint
