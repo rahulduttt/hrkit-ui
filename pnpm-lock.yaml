@@ -27,7 +27,7 @@ devDependencies:
     version: 0.4.2(tailwindcss@3.2.4)
   '@tailwindcss/forms':
     specifier: ^0.5.3
-    version: 0.5.3(tailwindcss@3.2.4)
+    version: 0.5.7(tailwindcss@3.2.4)
   '@tailwindcss/line-clamp':
     specifier: ^0.4.2
     version: 0.4.2(tailwindcss@3.2.4)
@@ -427,8 +427,8 @@ packages:
       tailwindcss: 3.2.4(postcss@8.4.21)
     dev: false
 
-  /@tailwindcss/forms@0.5.3(tailwindcss@3.2.4):
-    resolution: {integrity: sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==}
+  /@tailwindcss/forms@0.5.7(tailwindcss@3.2.4):
+    resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
