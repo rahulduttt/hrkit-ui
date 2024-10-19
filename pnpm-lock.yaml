@@ -33,7 +33,7 @@ devDependencies:
     version: 0.4.4(tailwindcss@3.4.7)
   '@tailwindcss/typography':
     specifier: ^0.5.8
-    version: 0.5.13(tailwindcss@3.4.7)
+    version: 0.5.15(tailwindcss@3.4.7)
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.45.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.0)(typescript@4.9.5)
@@ -518,10 +518,10 @@ packages:
       tailwindcss: 3.4.7
     dev: true
 
-  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.7):
-    resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
+  /@tailwindcss/typography@0.5.15(tailwindcss@3.4.7):
+    resolution: {integrity: sha512-AqhlCXl+8grUz8uqExv5OTtgpjuVIwFTSXTrh8y9/pw6q2ek7fJ+Y8ZEVw7EB2DCcuCOtEjf9w3+J3rzts01uA==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders'
+      tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20'
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
