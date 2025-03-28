@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-auto':
-    specifier: ^1.0.0
-    version: 1.0.3(@sveltejs/kit@1.30.4)
+    specifier: ^5.0.0
+    version: 5.0.0(@sveltejs/kit@1.30.4)
   '@sveltejs/kit':
     specifier: ^1.0.0
     version: 1.30.4(svelte@3.59.2)(vite@4.5.10)
@@ -417,13 +417,13 @@ packages:
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
     dev: true
 
-  /@sveltejs/adapter-auto@1.0.3(@sveltejs/kit@1.30.4):
-    resolution: {integrity: sha512-hc7O12YQqvZ1CD4fo1gMJuPzBZvuoG5kwxb2RRoz4fVoB8B2vuPO2cY751Ln0G6T/HMrAf8kCqw6Pg+wbxcstw==}
+  /@sveltejs/adapter-auto@5.0.0(@sveltejs/kit@1.30.4):
+    resolution: {integrity: sha512-r645Oerr5E9pVX8Xk8ZkObRq/915y5HfZQjFFv4opbstvqQqHfgMhm46tR0iDDKqydZOgJCPa6RdQXh6i7G/2g==}
     peerDependencies:
-      '@sveltejs/kit': ^1.0.0
+      '@sveltejs/kit': ^2.0.0
     dependencies:
       '@sveltejs/kit': 1.30.4(svelte@3.59.2)(vite@4.5.10)
-      import-meta-resolve: 2.2.2
+      import-meta-resolve: 4.1.0
     dev: true
 
   /@sveltejs/kit@1.30.4(svelte@3.59.2)(vite@4.5.10):
@@ -1354,8 +1354,8 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
-  /import-meta-resolve@2.2.2:
-    resolution: {integrity: sha512-f8KcQ1D80V7RnqVm+/lirO9zkOxjGxhaTC1IPrBGd3MEfNgmNG67tSUO9gTi2F3Blr2Az6g1vocaxzkVnWl9MA==}
+  /import-meta-resolve@4.1.0:
+    resolution: {integrity: sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==}
     dev: true
 
   /imurmurhash@0.1.4:
