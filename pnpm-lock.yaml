@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.46.1
     version: 2.52.0(autoprefixer@10.4.21)(postcss@8.5.6)
   pocketbase:
-    specifier: ^0.25.0
-    version: 0.25.2
+    specifier: ^0.26.0
+    version: 0.26.2
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -1703,8 +1703,8 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
 
-  /pocketbase@0.25.2:
-    resolution: {integrity: sha512-ONZl1+qHJMnhR2uacBlBJ90lm7njtL/zy0606+1ROfK9hSL4LRBRc8r89rMcNRzPzRqCNyoFTh2Qg/lYXdEC1w==}
+  /pocketbase@0.26.2:
+    resolution: {integrity: sha512-WA8EOBc3QnSJh8rJ3iYoi9DmmPOMFIgVfAmIGux7wwruUEIzXgvrO4u0W2htfQjGIcyezJkdZOy5Xmh7SxAftw==}
     dev: false
 
   /postcss-import@15.1.0(postcss@8.5.6):
