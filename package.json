@@ -45,7 +45,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tailwindcss/container-queries": "^0.1.0",
-		"daisyui": "^2.46.1",
+		"daisyui": "^5.0.0",
 		"pocketbase": "^0.26.0"
 	}
 }
