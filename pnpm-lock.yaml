@@ -13,7 +13,7 @@ dependencies:
     version: 2.52.0(autoprefixer@10.4.22)(postcss@8.5.6)
   pocketbase:
     specifier: ^0.26.0
-    version: 0.26.2
+    version: 0.26.5
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -1703,8 +1703,8 @@ packages:
     resolution: {integrity: sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==}
     engines: {node: '>= 6'}
 
-  /pocketbase@0.26.2:
-    resolution: {integrity: sha512-WA8EOBc3QnSJh8rJ3iYoi9DmmPOMFIgVfAmIGux7wwruUEIzXgvrO4u0W2htfQjGIcyezJkdZOy5Xmh7SxAftw==}
+  /pocketbase@0.26.5:
+    resolution: {integrity: sha512-SXcq+sRvVpNxfLxPB1C+8eRatL7ZY4o3EVl/0OdE3MeR9fhPyZt0nmmxLqYmkLvXCN9qp3lXWV/0EUYb3MmMXQ==}
     dev: false
 
   /postcss-import@15.1.0(postcss@8.5.6):
